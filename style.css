@@ -1,0 +1,103 @@
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+* {
+  font-family: 'Spoqa Han Sans', sans-serif;
+  font-weight: 600;
+  word-break: keep-all;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  /* transition: .3s; */
+  font-size: 20px;
+  box-sizing: border-box;
+}
+body{margin: 0;
+  background-image: url("img/bg2.svg");
+  background-repeat: repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  max-height: 100vh;
+  max-width: 100vw !important;
+}
+.vis {display: block !important;}
+.invis {display: none !important;}
+
+
+#wrapper{ width: 100vw; height: 100vh; overflow: hidden; text-align: center;}
+#mainContainer {
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999
+}
+
+#mainContainer:hover {cursor: pointer;}
+.main:hover{  color: #00f;}
+.main{text-align: center;}
+.main span{font-size: 48px; font-weight: 400; text-align: center; white-space: pre-line; margin-top: -60px;   font-family: 'Helvetica', 'Spoqa Han Sans', 'Sans-serif';}
+
+a:hover{color:#fff; cursor: pointer;}
+
+.container{ border: 2px solid #000;  background-color: #fff;  -webkit-transform: translate(0px, 0px); transform: translate(0px, 0px); box-shadow: 10px 10px; position: relative; text-align: left;}
+.container:hover{background-color: #00f;}
+.container:hover > ::-webkit-scrollbar-thumb {background: #000;     border-top: 2px solid #00f;
+    border-right: 2px solid #00f;
+    border-left: 2px solid #00f;}
+.header{width: 100%; border-bottom: 2px solid #000; padding: 1px 10px 5px; margin-top: 1px; margin-left: 0px;}
+.header:hover{background-color: ; transition: .3s;}
+.article{width: calc(100% - 1px); padding: 3px 10px 5px; white-space: pre-line; margin-bottom: 2px;}
+.article:hover{}
+marquee img:hover{transform: rotate(180deg); cursor: pointer;}
+
+#lang               {width: 180px; position: fixed; top:10px;  left:10px; background-color: #aaa;}
+#contact          {width: 300px; position: fixed; top:60px;  left:120px;}
+#history          {width: 400px; position: fixed; top:300px; left:40px;}
+#history .article {overflow-y: scroll; max-height: 120px;}
+#introduce        {width: 400px; position: fixed; top:20px;  right:20px;}
+#experience       {width: 600px; position: fixed; bottom:20px;  right:120px;}
+#experience .article{ overflow-y: scroll; max-height: 300px;}
+#pro              {width: 400px; position: fixed; bottom:20px; left:60px;}
+#pro .article     {text-align: center;}
+#skill            {width: 500px; position: fixed; top:200px; right: 20px}
+#skill .article   {overflow-y: scroll; max-height: 300px;}
+#edu              {width: 400px; position: fixed; top:20px; left:calc(50vw - 160px);}
+#work             {width: 500px;  position: fixed; top:calc(50vh - 120px); left:calc(50vw - 280px); background-color: coral}
+#work span:hover{cursor: pointer; color: #fff;}
+
+.template{width: 60vw; height: calc(100vh - 25px); min-width: 768px; display: inline-block; margin-top: 10px;}
+.template:hover{background-color: #fff;}
+.template .header{ width:calc(100% - 0px); display: block; padding-right: 10px; background-color: coral; border-left: 1px solid #000;border-right: 1px solid #000; box-sizing: border-box;}
+.template .article{width:calc(100% - 0px);overflow-y: scroll; max-height: calc(100vh - 80px);}
+.template:hover > ::-webkit-scrollbar-thumb {background: #000;     border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;}
+.template a:visited{color: #000;}
+.template a{text-decoration: none; border-bottom: 2px solid #000; display: inline-block; height: 30px;color: #000;}
+.template a:hover{color:#00f;border-bottom: 2px solid #00f;}
+
+.category{margin-bottom: 3px; display: inline-block;}
+
+
+.close{width: 20px; height: 20px; float: right; margin-right: 5px; margin-top: 6px;}
+.close:hover{cursor: pointer;}
+
+.thumbnail{width: 60%; display: block;}
+.template img{margin-bottom: 10px;}
+/* #skill .article   {overflow-y: scroll; max-height: 600px;} */
+
+::-webkit-scrollbar {width:8px;}
+::-webkit-scrollbar-track {background: transparent;/* border: 1px solid #fff; */}
+::-webkit-scrollbar-thumb {background: #000; border-top: 2px solid #fff; border-right: 2px solid #fff; border-left: 2px solid #fff;}
+::-webkit-scrollbar-thumb:hover {background: #333;}
+::selection{background-color: #000; color:#fff;}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: #000;}

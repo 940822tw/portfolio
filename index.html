@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Te-euk</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="interact.js"></script>
+  <script src="script.js"></script>
+  <script src="work.js"></script>
+  <script src="info.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+
+<div id="mainContainer">
+
+  <div id="mainEng" class="main divEng">
+    🚧 Hold on a sec. 🚧
+  </div>
+
+  <div id="mainKor" class="main divKor invis">
+    🚧 잠시만 기다려주세요. 🚧
+  </div>
+
+</div>
+
+
+<div id="wrapper">
+  <marquee direction="down" behavior="alternate" style="width: 100vw; height: 100vh; position:fixed; left:0; top:0;" scrollamount="20">
+    <marquee behavior="alternate" scrollamount="20">
+      <img src="img/moomin.png" style="display:inline-block; width:50px; height:50px;">
+    </marquee>
+  </marquee>
+  <div class="container" id="lang">
+    <header class="header draggable ">👄 Language</header>
+    <article class="article"><a>EN</a> – <a>KR</a></article>
+  </div>
+
+  <div class="container" id="contact">
+    <header class="header draggable">📞 Contact</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="history">
+    <header class="header draggable">📚 Work History</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="introduce">
+    <header class="header draggable">👋 Introduce</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="skill">
+    <header class="header draggable">🍭 Skill</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="pro">
+    <header class="header draggable">💾 Summary</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="edu">
+    <header class="header draggable">🎓 Education</header>
+    <article class="article"></article>
+  </div>
+
+  <div class="container" id="work">
+    <header class="header draggable">💖 Works</header>
+    <article class="article"></article>
+  </div>
+
+    <div class="container" id="experience">
+      <header class="header draggable">🔍 Experience</header>
+      <article class="article"></article>
+    </div>
+
+</div>
+
+
+</body>
+</html>
