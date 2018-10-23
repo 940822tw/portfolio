@@ -70,7 +70,7 @@ marquee img:hover{transform: rotate(180deg); cursor: pointer;}
 #work             {width: 500px;  position: fixed; top:calc(50vh - 120px); left:calc(50vw - 280px); background-color: coral}
 #work span:hover{cursor: pointer; color: #fff;}
 
-.template{width: 60vw; height: calc(100vh - 25px); min-width: 768px; display: inline-block; margin-top: 10px;}
+.template{width: 60vw; height: calc(100vh - 25px); min-width: 768px; display: inline-block; margin-top: 10px; z-index: 99999;}
 .template:hover{background-color: #fff;}
 .template .header{ width:calc(100% - 0px); display: block; padding-right: 10px; background-color: coral; border-left: 1px solid #000;border-right: 1px solid #000; box-sizing: border-box;}
 .template .article{width:calc(100% - 0px);overflow-y: scroll; max-height: calc(100vh - 80px);}
